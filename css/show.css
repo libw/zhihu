@@ -1,0 +1,209 @@
+@import "public.css";
+body{
+    background: #F3F3F3;
+    width:7.5rem;
+    height:auto;
+    margin:0 auto;
+}
+.header{
+    width:100%;
+    height:1.17rem;
+    background: #00A2ED;
+    margin:0 auto;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 99999;
+    font-size: 0.36rem;
+    color: #fff;
+}
+.header .headleft{
+    width:0.41rem;
+    height:0.31rem;
+    margin-left:00.37rem;
+    margin-top:0.43rem;
+    float: left;
+}
+.header .headleft a{
+    display: block;
+    width:0.41rem;
+    height:0.31rem;
+}
+.header .headleft img{
+    display: block;
+    width:0.41rem;
+    height:0.31rem;
+}
+.header .show{
+    line-height: 1.17rem;
+    margin-left:0.74rem;
+    font-size: 0.36rem;
+    float: left;
+}
+.header .show a{
+    color: #fff;
+}
+.header .headright{
+    width:auto;
+    height:0.51rem;
+    margin-top:0.35rem;
+    margin-right:0.2rem;
+    float: right;
+    overflow: hidden;
+    line-height: 0.51rem;
+}
+.header .headright img{
+    width:0.59rem;
+    height:0.51rem;
+    display: block;
+    float: left;
+    margin-right:0.1rem;
+}
+.header .headright1{
+    width:auto;
+    height:0.51rem;
+    margin-top:0.3rem;
+    margin-right:0.4rem;
+    float: right;
+    overflow: hidden;
+    line-height: 0.51rem;
+}
+.header .headright1 img{
+    width:0.59rem;
+    height:0.51rem;
+    display: block;
+    float: left;
+    margin-right:0.1rem;
+}
+.header .headright2{
+    width:0.55rem;
+    height:0.51rem;
+    margin-top:0.34rem;
+    margin-right:0.4rem;
+    float: right;
+    overflow: hidden;
+    line-height: 0.51rem;
+}
+.header .headright2 img{
+    width:0.55rem;
+    height:0.51rem;
+    display: block;
+    float: left;
+    margin-right:0.1rem;
+}
+.header .headright3{
+    width:auto;
+    height:0.51rem;
+    margin-top:0.3rem;
+    margin-right:0.4rem;
+    float: right;
+    overflow: hidden;
+    line-height: 0.51rem;
+}
+.header .headright3 img{
+    width:0.59rem;
+    height:0.51rem;
+    display: block;
+    float: left;
+    margin-right:0.1rem;
+}
+/*轮播图*/
+.banner{
+    width:100%;
+    height:4.7rem;
+    margin:0 auto;
+    position: relative;
+    margin-top:1.17rem;
+}
+.banner .img{
+    width:100%;
+    height:4.7rem;
+}
+.banner img{
+    display: block;
+    width:100%;
+    height:4.7rem;
+}
+/*内容*/
+.content{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    background: #F9F9F9;
+ }
+.content .top{
+    width:100%;
+    height:1.28rem;
+    line-height: 1.28rem;
+    overflow: hidden;
+    padding-left: 0.3rem;
+}
+.content .top img{
+    display: block;
+    width:0.48rem;
+    height:0.38rem;
+    margin-top:0.49rem;
+    float: left;
+    margin-right:0.1rem;
+}
+.content .top p{
+    color: #000;
+    font-size: 0.34rem;
+    font-weight: 700;
+    float: left;
+}
+.content .top .fa{
+    color: #999;
+    font-weight: 500;
+    float: left;
+}
+.content .top1{
+    width:100%;
+    height:0.8rem;
+    overflow: hidden;
+    padding-left: 0.3rem;
+}
+.content .top1 p{
+    color: #666;
+    font-size: 0.34rem;
+    font-weight: 500;
+    float: left;
+}
+.content .top1 .fa{
+    color: #00A2ED;
+    font-weight: 500;
+    float: left;
+}
+.content .con{
+    width:100%;
+    height:auto;
+    font-size: 0.3rem;
+    padding:0 0.3rem;
+    color: #666;
+    line-height: 0.5rem;
+}
+.content .con1{
+    width:100%;
+    height:auto;
+    padding:0.3rem 0;
+    border-top:1px solid #999;
+    border-bottom:1px solid #999;
+    font-size: 0.3rem;
+    color: #444;
+}
+.footer{
+    width:100%;
+    height:auto;
+    padding:0.3rem;
+    font-size: 0.36rem;
+    color: #666;
+}
+.footer p{
+    width:100%;
+    height:0.64rem;
+    line-height: 0.64rem;
+    text-align: center;
+    background: #ccc;
+    border-radius: 0.1rem;
+}

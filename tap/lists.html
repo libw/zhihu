@@ -1,0 +1,23 @@
+<div class="bann">
+    <div class="lun-banner">
+    <div class="qwe">
+        <a href="#!/show/{{datalun1.id}}">
+        <img src="{{datalun1.image}}" alt="">
+        <div class="qwe1">{{datalun1.title}}</div>
+        </a>
+    </div>
+    </div>
+</div>
+<div class="conte">
+    <h3>今日新闻</h3>
+    <ul>
+        <li class="list" ng-repeat="v in data">
+            <a href="#!/show/{{v.id}}">
+                <p>{{v.title}}</p>
+                <div class="img">
+                    <img src="{{v.images[0]}}" alt="">
+                </div>
+            </a>
+        </li>
+    </ul>
+</div>

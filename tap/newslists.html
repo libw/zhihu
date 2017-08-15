@@ -1,0 +1,26 @@
+
+<div class="bann">
+    <a href="#!/show/{{datalun1.id}}">
+    <div class="qwe">
+    <img src="{{data1}}" alt="">
+        <div class="qwe1">{{data2}}</div>
+    </div>
+        </a>
+</div>
+<div class="conte">
+<div class="zhubian">
+    <div class="bian">主编</div>
+    <div class="zhuimg" ng-repeat="v in data3"><img src="{{v.avatar}}" alt="">
+    </div>
+</div>
+<ul>
+<li class="list" ng-repeat="v in data">
+    <a href="#!/show/{{v.id}}">
+        <p ng-class="{trans:aa}">{{v.title}}</p>
+        <div class="img" ng-hide="aa">
+            <img src="{{v.images[0]?v.images[0]:aa=true}}" alt="">
+        </div>
+    </a>
+</li>
+</ul>
+</div>

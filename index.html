@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="zhihu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="referrer" content="never">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/angular.min.js"></script>
+    <script src="js/angular-route.min.js"></script>
+    <script src="js/angular-sanitize.min.js"></script>
+    <script src="js/TouchSlide.1.1.js"></script>
+    <script src="js/fuwu.js"></script>
+    <script src="js/directive.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<!--内容-->
+<header class="header">
+    <div class=
+                 "headleft"><img src="images/head.png" alt=""></div>
+    <div class="show"><a href="#!/">首页</a></div>
+    <div class="headright1">
+        <img src="images/head1.png" alt="">
+    </div>
+    <div class="headright">
+        <img src="images/head2.png" alt="">
+    </div>
+</header>
+<div class="down" ng-view>
+
+</div>
+<!--左边-->
+<div class="zhe"></div>
+<div class="con-left">
+    <div class="con-top">
+        <a href="#" class="deng">
+            <img src="images/left.png" alt="">请登录
+        </a>
+        <div class="con-shou">
+            <div class="shou-left">
+                <img src="images/left1.png" alt="">我的收藏
+            </div>
+            <div class="shou-left shou-right">
+                <img src="images/left2.png" alt="">离线下载
+            </div>
+        </div>
+    </div>
+    <ul ng-controller="lanmu">
+        <h3>
+            <img src="images/left3.png" alt=""><a href="#!/">首页</a>
+        </h3>
+        <li ng-repeat="v in data">
+            <a href="#!/newlist/{{v.id}}">{{v.name}}</a>
+            <div class="jia">
+                <div class="heng"></div>
+                <div class="heng1"></div>
+            </div>
+        </li>
+    </ul>
+</div>
+</body>
+</html>

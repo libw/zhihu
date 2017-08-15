@@ -1,0 +1,459 @@
+@import "public.css";
+body{
+    background: #F3F3F3;
+    width:7.5rem;
+    height:auto;
+    margin:0 auto;
+}
+.header{
+    width:100%;
+    height:1.17rem;
+    background: #00A2ED;
+    margin:0 auto;
+    overflow: hidden;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 99999;
+}
+.header .headleft{
+    width:0.41rem;
+    height:0.31rem;
+    margin-left:00.37rem;
+    margin-top:0.43rem;
+    float: left;
+}
+.header .headleft img{
+    display: block;
+    width:0.41rem;
+    height:0.31rem;
+}
+.header .show{
+    line-height: 1.17rem;
+    margin-left:0.74rem;
+    font-size: 0.36rem;
+    float: left;
+}
+.header .show a{
+    color: #fff;
+}
+.header .headright{
+    width:0.48rem;
+    height:0.46rem;
+    margin-top:0.36rem;
+    float: right;
+    margin-right:0.6rem;
+}
+.header .headright img{
+    width:0.48rem;
+    height:0.46rem;
+    display: block;
+}
+.header .headright1{
+    width:0.12rem;
+    height:0.38rem;
+    margin-top:0.4rem;
+    margin-right:0.41rem;
+    float: right;
+    position: relative;
+}
+.header .headright1 img{
+    width:0.12rem;
+    height:0.38rem;
+   display: block;
+}
+/*轮播图*/
+.banner{
+    width:100%;
+    height:4.7rem;
+    margin:0 auto;
+    position: relative;
+    margin-top:1.17rem;
+}
+.banner .focus{
+    width:100%;
+    height:4.7rem;
+}
+.banner .bd li{
+    width:100%;
+    height:4.7rem;
+}
+.banner .bd li a{
+    display: block;
+    width:100%;
+    height:4.7rem;
+}
+.bann{
+    width:100%;
+    padding-top:1.17rem;
+    position: relative;
+}
+.lun-banner{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    position: relative;
+}
+.bann .qwe{
+    width:100%;
+    height:auto;
+}
+.bann .qwe a{
+    display: block;
+}
+.bann .qwe1{
+    position: absolute;
+    width:100%;
+    left:0;
+    padding:0 0.24rem;
+    bottom:0.2rem;
+    color: #fff;
+    font-size: 0.4rem;
+}
+.lun-banner .qwe1{
+    bottom:0.2rem;
+}
+.bann .qwe img{
+    display: block;
+    width:100%;
+    height:auto;
+}
+.qwe img{
+    display: block;
+    width:100%;
+    height:7.5rem;
+}
+.banner .hd{
+    width:100%;
+    height:0.14rem;
+    position:absolute;
+    z-index:1; bottom:0.18rem;
+    text-align:center;
+}
+.banner .hd ul{
+    width:auto;
+    height:0.14rem;
+    padding: 0.03em 0.05rem;
+    background-color:rgba(255,255,255,0.0);
+}
+.banner .hd li{
+    float: left;
+    width:0.14rem;
+    height:0.14rem;
+    margin-right:0.05rem;
+    background: #ccc;
+    text-indent:-9999px;
+    border-radius: 50%;
+}
+.banner .hd .on{
+    background: #fff;
+}
+/*neirong*/
+.down{
+    width:100%;
+    height:auto;
+}
+.conte{
+    width:100%;
+    height:auto;
+    padding:0 0.24rem;
+}
+.conte h3{
+    width:100%;
+    height:1.15rem;
+    line-height: 1.15rem;
+    color: #999;
+    font-size: 0.3rem;
+    padding-left:0.2rem;
+}
+.conte .zhubian{
+    width:100%;
+    height:2.0rem;
+    line-height: 2.0rem;
+    color: #999;
+    font-size: 0.3rem;
+    padding-left:0.2rem;
+}
+.conte .zhubian .bian{
+    float: left;
+    margin-right: 0.3rem;
+}
+.conte .zhubian .zhuimg{
+    width:1rem;
+    height:1rem;
+    border-radius: 50%;
+    float: left;
+    margin-right: 0.3rem;
+    overflow: hidden;
+    margin-top:0.5rem;
+}
+.conte .zhubian .zhuimg img{
+    display: block;
+    width:1rem;
+    height:1rem;
+}
+.conte .list{
+    width:100%;
+    height:auto;
+    border-radius: 0.1rem;
+    background: #fff;
+    margin-bottom:0.3rem;
+    box-shadow: 0 2px 1px 0.05rem #ddd;
+}
+.conte .list a{
+    width:100%;
+    height:auto;
+    display: block;
+    padding:0.3rem 0.36rem;
+    color: #333;
+    font-size: 0.36rem;
+    overflow: hidden;
+}
+.conte .list a p{
+    width:4.4rem;
+    height:1.5rem;
+    float: left;
+}
+.conte .list a .trans{
+    width:100%;
+    height:auto;
+}
+.conte .list a .img{
+    width:1.7rem;
+    height:1.5rem;
+    float: right;
+}
+.conte .list a .img{
+    width:1.7rem;
+    height:1.5rem;
+    float: right;
+}
+.conte .list a img{
+     outline: 0;
+     border:0;
+     display: block;
+     width:1.7rem;
+     height:auto;
+     float: right;
+ }
+/*左边*/
+.zhe{
+    position: fixed;
+    width:100%;
+    height:100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 999999;
+    top:0;
+    left:0;
+    display: none;
+}
+.con-left{
+    position: fixed;
+    width:6.3rem;
+    height:100%;
+    background: #fff;
+    top:0;
+    left:-6.3rem;
+    z-index: 99999999;
+    transition: all 0.5s;
+}
+.con-left .con-top{
+    width:6.3rem;
+    height:2.32rem;
+    background: #00A2ED;
+    padding-top:0.2rem;
+}
+.con-left .con-top .deng{
+    display: block;
+    width:100%;
+    height:0.7rem;
+    line-height: 0.7rem;
+    color: #fff;
+    font-size: 0.32rem;
+    padding-left:0.3rem;
+}
+.con-left .con-top .deng img{
+    display: block;
+    width:0.7rem;
+    height:0.7rem;
+    margin-right:0.26rem;
+    float: left;
+}
+.con-left .con-top .con-shou{
+    display: block;
+    width:100%;
+    height:0.7rem;
+    margin-top:0.7rem;
+    padding-left:0.3rem;
+}
+.con-left .con-top .con-shou .shou-left{
+    display: block;
+    width:2.1rem;
+    height:0.5rem;
+    float: left;
+    font-size: 0.3rem;
+    color: #fff;
+}
+.con-left .con-top .con-shou .shou-left img{
+    display: block;
+    width:0.4rem;
+    height:0.4rem;
+    margin-right:0.4rem;
+    float: left;
+}
+.con-left .con-top .con-shou .shou-right{
+    display: block;
+    width:2.1rem;
+    height:0.5rem;
+    float: right;
+    font-size: 0.3rem;
+    color: #fff;
+    margin-right:0.7rem;
+}
+.con-left h3{
+    width:100%;
+    height:1.1rem;
+    line-height: 1.1rem;
+    padding-left:0.3rem;
+    background: #F0F0F0;
+    overflow: hidden;
+    color: #00A2ED;
+    font-size: 0.3rem;
+    font-weight: 500;
+}
+.con-left h3 img{
+    display: block;
+    margin-top:0.34rem;
+    width:0.48rem;
+    height:0.42rem;
+    line-height: 1.1rem;
+    margin-right: 0.3rem;
+    float: left;
+}
+.con-left h3 a{
+    color: #00A2ED;
+}
+.con-left li{
+    width:100%;
+    height:1.1rem;
+    line-height: 1.1rem;
+    padding-left:0.36rem;
+    overflow: hidden;
+    color: #333;
+    font-size: 0.3rem;
+    font-weight: 500;
+}
+.con-left li a{
+    color: #000;
+}
+.con-left li .jia{
+    float: right;
+    margin-right:1.14rem;
+    width:0.25rem;
+    height:0.25rem;
+    margin-top:0.42rem;
+    overflow: hidden;
+}
+.con-left li .jia .heng{
+    width:0.25rem;
+    height:0.03rem;
+    background: #ccc;
+    margin-top:0.11rem;
+}
+.con-left li .jia .heng1{
+    width:0.25rem;
+    height:0.03rem;
+    background: #ccc;
+    transform: rotate(90deg);
+}
+
+/*shou页面*/
+.contt{
+    width:100%;
+    height:auto;
+    margin:0 auto;
+    background: #F9F9F9;
+    margin-top:1.17rem;
+}
+.contt .top{
+    width:100%;
+    height:1.28rem;
+    line-height: 1.28rem;
+    overflow: hidden;
+    padding-left: 0.3rem;
+}
+.contt .top img{
+    display: block;
+    width:0.48rem;
+    height:0.38rem;
+    margin-top:0.49rem;
+    float: left;
+    margin-right:0.1rem;
+}
+.contt .top div{
+    color: #000;
+    font-size: 0.34rem;
+    font-weight: 700;
+    float: left;
+}
+.contt .top .fa{
+    color: #999;
+    font-weight: 500;
+    float: left;
+}
+.contt .top1{
+    width:100%;
+    height:1.2rem;
+    padding-left: 0.3rem;
+}
+.contt .top1:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.contt .top1 p{
+    color: #666;
+    font-size: 0.34rem;
+    font-weight: 500;
+    float: left;
+}
+.contt .top1 .fa{
+    color: #00A2ED;
+    font-weight: 500;
+    float: left;
+}
+.contt .con{
+    width:100%;
+    height:auto;
+    font-size: 0.3rem;
+    color: #666;
+    line-height: 0.5rem;
+}
+.contt .con1{
+    width:100%;
+    height:auto;
+    /*border-top:1px solid #999;*/
+    /*border-bottom:1px solid #999;*/
+    font-size: 0.3rem;
+    color: #444;
+}
+.contt .pic{
+    width:7.5rem;
+    height:auto;
+    font-size: 0.3rem;
+}
+.footer{
+    width:100%;
+    height:auto;
+    padding:0.3rem;
+    font-size: 0.36rem;
+    color: #666;
+}
+.footer p{
+    width:100%;
+    height:0.64rem;
+    line-height: 0.64rem;
+    text-align: center;
+    background: #ccc;
+    border-radius: 0.1rem;
+}
